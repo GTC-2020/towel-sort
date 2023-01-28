@@ -2,9 +2,7 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  if(!matrix) {
-    return [];
-  } else {
+  if(!matrix) return [];
   let outputArray = [];
   for(let i = 0; i < matrix.length; i++){
     for(let j = 0; j < matrix[i].length; j++){
@@ -13,5 +11,5 @@ module.exports = function towelSort (matrix) {
     }
   }
   return outputArray;
-}
+
 }
